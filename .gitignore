@@ -1,0 +1,6 @@
+tools/node_modules/
+tools/.diagrams.json
+.DS_Store
+*:Zone.Identifier
+**/*:Zone.Identifier
+

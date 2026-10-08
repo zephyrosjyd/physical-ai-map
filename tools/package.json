@@ -1,0 +1,19 @@
+{
+  "name": "physical-ai-map-tools",
+  "private": true,
+  "description": "build tools for the Physical AI concept map (not needed at runtime)",
+  "scripts": {
+    "data": "cd .. && python3 tools/build_data.py",
+    "diagrams": "node render_diagrams.js",
+    "app": "esbuild app/main.js --bundle --minify --format=iife --target=es2019 --outfile=../assets/app.js",
+    "build": "npm run data && npm run diagrams && npm run app"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "d3-selection": "^3.0.0",
+    "d3-transition": "^3.0.1",
+    "d3-zoom": "^3.0.0",
+    "mermaid": "10.9.1",
+    "playwright": "^1.45.0"
+  }
+}
