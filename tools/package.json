@@ -13,7 +13,7 @@
     "d3-selection": "^3.0.0",
     "d3-transition": "^3.0.1",
     "d3-zoom": "^3.0.0",
-    "mermaid": "10.9.1",
+    "mermaid": "10.9.8",
     "playwright": "^1.45.0"
   }
 }
